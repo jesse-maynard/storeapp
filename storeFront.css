@@ -1,0 +1,102 @@
+
+/* Main Styles */
+head {
+    font-family: 'Russo One';
+}
+
+body {
+    background-color: #222222;
+}
+
+table {
+    width: 80%;
+}
+tr:nth-child(even) {
+    background-color: #425842;
+}
+
+tr:nth-child(odd) {
+    background-color: #222222;
+}
+/* custom ids*/
+ #wrap {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    #left_col {
+        float: left;
+        width: 600px;
+    }
+    
+    #right_col {
+        float: right;
+        width: 600px;
+    }
+    
+    /* custom styles */
+    
+    
+    .header {
+        color: #000000;
+        width: 100%;
+        margin-top: 50px;
+        border: dashed #559c5f;
+        text-align: left;
+        font-family: 'Russo One', sans-serif;
+        font-size: 14pt;
+        border-radius: 10px;
+        background-image: url("https://prejudicepolitics.files.wordpress.com/2015/07/nuclear.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+    }
+
+    /* Nav Bar */
+
+.wrapper{
+    margin: 5px;
+}
+a, a:visited {
+    color: #559c4f;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    margin: 5px;
+}
+li{
+    display: inline;
+    float: left;
+}
+.ul {
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+}
+li a {
+    display: block;
+    color: #559c5f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #245842;
+}
+nav {
+    display: block;
+    background-color: lightblue;
+}
+
+
+
+
+    
